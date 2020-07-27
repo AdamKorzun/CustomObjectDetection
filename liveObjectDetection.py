@@ -29,7 +29,7 @@ category_index = label_map_util.create_category_index_from_labelmap(PATH_TO_LABE
 predict_fn = tf.saved_model.load("model\\saved_model")
 
 def run_inference_for_single_image(model, image):
-    #image = np.asarray(image)
+    
 
     input_tensor = tf.convert_to_tensor(image)
 
@@ -92,4 +92,4 @@ if __name__ == '__main__':
             break
 
 
-#show_inference(predict_fn,"C:\\Users\\User\\Desktop\\testdiur\\scene00541.png")
+
