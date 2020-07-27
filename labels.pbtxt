@@ -1,0 +1,5 @@
+item {
+    name: "white_duck",
+    id: 1,
+    display_name: "white_duck"
+}
